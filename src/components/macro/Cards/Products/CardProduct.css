@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+.card-product {
+    height: 100%;
+    background-color: #F6F3EF;
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: #0000003f 0 3px 7px 2px;
+    transition: 0.3s;
+    min-width: 200px !important;
+    max-width: 290px;
+    margin: 30px 15px;
+}
+
+.card:hover {
+    box-shadow: #00000062 0 2px 4px 2px;
+}
+
+.caixa-imagem {
+    display: block;
+    justify-content: center;
+    height: 200px;
+    object-fit: cover;
+}
+
+.caixa-imagem img {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.corpo-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    height: 310px !important;
+}
+
+.descricao {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-family: Baskervville;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.descricao:hover {
+    color: #000;
+}
+
+.pagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preco {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.preco-de {
+    font-size: 20px;
+    text-decoration: line-through;
+    color: #BC4C2A82;
+}
+
+.preco-por {
+    font-size: 24px;
+    color: #BC4C2A;
+}
+
+.parcelas {
+    color: #00000096;
+    font-family: Baskervville;
+    font-size: 16px;
+}
+
+.parcelas em {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
+.btn-expand {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.sale-etiq::before {
+    content: "APROVEITE";
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    text-justify: center;
+    position: absolute;
+    height: 20px;
+    width: 90px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.301);
+    background-color: #3f79cf;
+    border-radius: 5px 0 5px 0;
+}

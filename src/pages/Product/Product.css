@@ -1,0 +1,175 @@
+.container-fluid-section{
+    background-color: #F6F3EF;
+} 
+
+.h1-section {
+    color: #BC4C2A;
+    font-size: 28px;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    margin: 0;
+    padding: 8px;
+}
+
+.imagem-caixa-registradora {
+    display: flex;
+    justify-content: center;
+    background-color: #F6F3EF;
+    margin: 0;
+}
+
+.caixa-Registradora {
+    height: 100%;
+    width: auto;
+    border:  2px solid #BC4C2A;
+}
+
+.valor {
+    font-family: 'Times New Roman', Times, serif;
+    color:#BC4C2A;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.formas-pagamento {
+    font-family: 'Baskervville', serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.formas-pagamento em {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.frete {
+    font-family: 'Baskervville', serif;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.cep {
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    border: none;
+    border-bottom: #BC4C2A solid 2px;
+    padding: 10px;
+}
+
+.form-cep {
+    display:inline-block;
+    align-items:center;
+    align-self:center;
+}
+
+.form-cep :focus {
+    outline: none; 
+}
+
+.button-submit-cep {
+    display: flex;
+    border: none;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    border-bottom: #BC4C2A solid 2px;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}
+.pesquisa-btn {
+    display: flex;
+    padding: 0;
+    align-self: flex-end;
+}
+
+.container-fluid-informações {
+    background-color: #fff;
+}
+
+.h1-informações {
+    color: #BC4C2A;
+    font-size: 28px;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    margin: 0;
+    padding: 8px;  
+}
+
+.h1-informações-texto {
+    font-size: 20px;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.container-fluid-caracteristicas {
+    background-color: #fff;
+}
+
+.h1-caracteristicas {
+    color: #BC4C2A;
+    font-size: 28px;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    margin: 0;
+    padding: 8px; 
+}
+
+.h1-caracteristicas-texto {
+    font-size: 20px;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.container-fluid-pagamento{
+    background-color: #fff;
+
+}
+
+.h1-pagamento {
+    color: #BC4C2A;
+    font-size: 28px;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    margin: 0;
+    padding: 8px;  
+}
+
+.h1-pagamento-texto {
+    font-size: 22px;
+    font-family: 'Baskervville', serif;
+    text-align: center;
+    padding-top: 8px;
+}
+.frete-fixo-produto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.image-product-api {
+    height: 300px;
+    width: 300px;
+    border:  2px solid #BC4C2A;
+    object-fit: cover;
+    padding: 0px;
+}
+
+.tamanho-num {
+    margin-bottom: 10px;
+    font-size: 35px !important;
+    /* margin-left: -220px !important; */
+}
+
+.tamanho-letra {
+    font-size: 20px !important;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,15 @@
+.titleModal {
+    text-align: center;
+    color: #BC4C2A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #cacaca;
+    text-align: center !important;
+}
+
+.pix-button {
+    font-size: 15px;
+    margin: 0 60px ;
+}

@@ -1,0 +1,30 @@
+.custom-tracking{
+    background-color: #ffff !important;
+}
+.default-line{
+    border-top: 1px solid rgba(0, 0, 0, 0.578);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.578);
+
+
+}
+
+.default-line-initial{
+    border-left: 1px solid rgba(0, 0, 0, 0.578)
+}
+
+.images-tracking{
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 32px;
+    margin-left: -20px;
+}
+.line{
+    height: 10px;
+
+}
+.tracking-img-col{
+    max-width:20px
+}
+.completedTask{
+    background-color: rgba(20, 201, 20, 0.653);
+}

@@ -1,0 +1,67 @@
+.linha-divisoria{
+    box-shadow: grey 1px 0 1px 0px;
+}
+
+.form-filter {
+    justify-content: flex-end;
+    padding-left: 20px;
+}
+
+.ver-mais {
+    margin: 0 !important;
+    width: 100%;
+}
+
+.btn-ver-mais{
+    font-family: Baskervville;
+    text-align: center;
+    background-color: #a3a3a3;
+    padding: 10px;
+    width: auto !important;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: #00000036 0 2px 4px 2px;
+    transition: 0.3s;
+    
+}
+
+.btn-ver-mais:hover {
+    color: #fff;
+    background-color: #bebebe;
+    box-shadow: #00000062 0 2px 4px 2px;
+    width: auto;
+}
+
+/* cards */
+
+* {
+    box-sizing: border-box;
+}
+
+.container-cards {
+    padding: 0;
+}
+
+.catalogo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start !important;
+    padding: 0 60px !important;
+    list-style: none;
+}
+
+.catalogo li {
+    margin-right: 30px !important;
+}
+
+@media(max-width: 990px) {
+    
+    .catalogo {
+        justify-content: space-between !important;
+        margin: auto;
+    }
+
+}

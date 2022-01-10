@@ -1,0 +1,16 @@
+.customButtonCarroussel{
+    background: none;
+    border: none;
+    max-width: 50px;
+    font-size:45px;
+    height: 100px;
+    align-self: center;
+    color: rgba(0, 0, 0, 0.367);
+    box-shadow: 0px 0px 10px 1px  rgba(0, 0, 0, 0.347);
+    border-radius:10px
+}
+.customButtonCarroussel:hover{
+    color: rgba(0, 0, 0, 0.571);
+    box-shadow: 0px 0px 10px 1px  rgba(0, 0, 0, 0.517);
+
+}

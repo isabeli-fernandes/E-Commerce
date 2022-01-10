@@ -1,0 +1,101 @@
+.allPatternTicket {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+}
+
+
+.layoutTicket {
+    border: solid 2px;
+    width: 1000px;
+    height: 551px;
+    margin-top: 20px;
+}
+
+.layoutTicketInfo {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.slotTicket {
+    border: solid 2px;
+    padding: 0;
+}
+
+.fistLineTicket {
+    height: 70px;
+}
+
+.logoTicket {
+    border: solid 2px;
+    padding: 0;
+}
+
+.numTicket {
+    text-align: center;
+    padding-top: 16px;
+    font-size: 18px;
+}
+
+.titleTicket {
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+.infoTicketLeft {
+    padding-top: 2px;
+    padding-left: 6px;
+    font-size: 15px;
+}
+
+.infoTicketRight {
+    text-align: end;
+    padding-top: 2px;
+    padding-right: 6px;
+    font-size: 15px;
+}
+
+.businessNameTicket {
+    font-weight: bold;
+    font-size: 17px;
+}
+.moreInfoTicketTitle {
+    border-right: solid 2px;
+}
+
+.moreInfoTicketLine {
+    padding-left: 15px;
+}
+
+.moreInfoTicket {
+    border-right: solid 2px;
+}
+
+/* .instructionsTitle {
+    padding-left: 18px;
+} */
+
+.instructionsInfo {
+    border-bottom: solid 2px;
+    height: 25px;
+}
+
+.infoLastLineTicket {
+    border: none !important;
+}
+
+.lastTitleTicket {
+    padding-top: 50px !important;
+}
+
+.barCodeTicket {
+    justify-content: start;
+    margin-left: 120px;
+    width: 600px;
+    height: 200px;
+}
+
+.barCodeTitle {
+    margin-left: 130px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.input-container input {
+    padding: 0 5px;
+    height: 35px;
+}
+
+.form-input {
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: solid 2px #BC4C2A;
+    color: #000;
+    height: 35px;
+    padding: 0 10px;
+}

@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+.new-address{
+    margin: 2px !important;
+    border: 1px solid #bc4c2a !important;
+}
+
+.new-address label {
+    font-size: 1rem !important;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.new-address p {
+    font-size: 1rem !important;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.custom-cep-radio {
+    
+    color: #252525;
+    font-family:'Times New Roman', Times, serif !important;
+}
+
+.button-remove-address{
+    max-width: 15px;   
+}

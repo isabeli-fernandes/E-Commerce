@@ -1,0 +1,25 @@
+.titulo{
+    background-color: #fff;
+}
+.forma-pagamento{
+    text-decoration: none;
+    background-color: none !important;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: auto;
+    box-shadow: none;
+}
+
+.forma-pagamento:hover{
+    box-shadow: none;
+}
+
+.disabled-button{
+    opacity: 30%;
+}
+.selected-button{
+    cursor:default !important;
+}
+.modal-90w{
+    max-width: 80%!important;
+}

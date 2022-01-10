@@ -1,0 +1,29 @@
+
+
+h1, h2, p, button, p, small, label {
+    font-family: 'Baskervville', serif;
+}
+
+.custom-form a{
+    color: #252525;
+}
+
+.recuperar {
+    color: #252525;
+}
+
+.recuperar:hover{
+    color: #252525;
+    font-weight: bold;
+}
+
+.custom-container-login {
+    background-color: #F6F3EF;
+    margin: 0 0 5px 0;
+}
+
+.container-form {
+    background-color: #F6F3EF;
+    padding-bottom: 30px !important;
+    margin-bottom: 30px;
+}

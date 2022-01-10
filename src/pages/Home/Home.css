@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.home-titles {
+    color: #BC4C2A;
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    text-shadow: 2px 2px 5px #cacaca;
+}
+
+.row-correction {
+    margin: 0;
+    width: 100% !important;
+}
+
+.nome-fantasia {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.image-emphasis{
+    display: block;
+    justify-content: center;
+    height: 320px;
+    object-fit: cover;
+}

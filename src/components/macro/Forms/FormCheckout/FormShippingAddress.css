@@ -1,0 +1,25 @@
+.new-address{
+    margin: auto !important;
+    border: 1px solid #bc4c2a !important;
+    padding: 2px ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.code{
+    width: 250px;
+    height: 250px;
+}
+
+.ticketInfo {
+    text-align: center;
+    color: #BC4C2A;
+    font-family: 'Baskervville', serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #cacaca;
+}

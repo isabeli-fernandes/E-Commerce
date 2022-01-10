@@ -1,0 +1,233 @@
+.container-fluid{
+    background-color: #F6F3EF;
+}
+
+.titulo {
+    color: #BC4C2A;
+    font-size: 35px;
+    font-family: 'Baskervville', serif;
+    align-self: flex-end;
+    margin: 0;
+    background-color: #F6F3EF;
+}
+
+.antiquario {
+    font-family: 'Baskervville', serif;
+    font-size: 18px;
+}
+
+.perfil-link {
+    padding: 0;
+    font-family: 'Baskervville', serif; 
+    font-size: 16px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perfil-nome {
+    display: flex;
+    width: 50px;
+}
+
+.perfil-bloco:hover {
+    color: #BC4C2A;
+}
+
+.perfil-link b {
+    margin-right: 5px;
+    font-weight: normal;
+}
+
+.perfil-bloco {
+    margin-top: 10px;
+    margin-bottom: 7px;
+    width: 40px;
+    padding: 0 !important;
+}
+
+.perfil-imagem {
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 0 !important;
+    width: auto;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+
+.login-imagem {
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 0 !important;
+    width: auto;
+    background-repeat: no-repeat;
+    align-self: center;
+}
+
+.login-button-header {
+    padding: 0;
+    font-family: 'Baskervville', serif; 
+    font-size: 16px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button-header a, .perfil-link a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.sacola-bloco {
+    margin-top: 10px;
+    width: 40px;
+    padding: 0 !important;
+}
+
+.button-sacola{
+    padding: 0;
+    font-family: 'Baskervville', serif; 
+    font-size: 16px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sacola {
+    align-items: flex-start;
+    padding: 0 20px 0 0 !important;
+}
+
+.sacola-imagem {
+    height: 23px !important;
+    margin-left: 12px;
+}
+
+.pesquisa {
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    border: none;
+    border-bottom: #BC4C2A solid 2px;
+    padding: 10px;
+}
+
+.form-pesquisa-header {
+    display: flex;
+    align-content: flex-end;
+    align-self: flex-end;
+    margin-bottom: 10px !important;
+}
+
+.button-submit {
+    display: flex;
+    border: none;
+    background-color: white;
+    width: 100%;
+    height: 35px;
+    margin: 0;
+    border-bottom: #BC4C2A solid 2px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important; 
+}
+
+.pesquisa-btn {
+    display: flex;
+    padding: 0 !important;
+    align-self: flex-end;
+    margin-top: 20px;
+}
+
+.lupa {
+    height: 17px;
+    width: auto;
+}
+
+.hamburguer {
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    padding: 0 0 0 30px;
+}
+.menu-hamburguer {
+    height: 30px;
+    width: auto;
+    align-self: flex-end;
+    display: flex;
+    margin-left: 10px;
+}
+
+#menu ul {
+    background-color:#F6F3EF;
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul li { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+#menu ul li a {
+    display: flex;
+    flex-direction: row;
+    background-color:#F6F3EF;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom:2px solid #F6F3EF;
+    font-family: 'Baskervville', serif;
+    font-size: 18px;
+    width: 95px;
+    padding: 10px 95px;
+    justify-content: center;
+}
+
+#menu ul li a:hover {
+    border-bottom:2px solid #BC4C2A;
+}
+
+.pesquisa:focus {
+    outline: none;
+}
+
+@media (max-width:800px) {
+    #menu ul li a {
+        padding: 10px 75px;
+    }
+}
+
+@media (max-width:991px) {
+    .header-row-ajust {
+        justify-content: space-around !important;
+    }
+}
+
+@media (max-width:645px) {
+    #menu ul li a {
+        padding: 10px 60px;
+    }
+}
+
+@media (max-width:576px) {
+    .pesquisa-btn {
+        margin-bottom: 15px;
+    }
+
+    .titulo {
+        justify-content: center;
+        display: flex;
+    }
+}

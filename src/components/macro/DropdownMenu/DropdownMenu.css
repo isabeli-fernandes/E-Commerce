@@ -1,0 +1,22 @@
+.card-menu {
+    border-radius: 0 !important;
+}
+
+.menu-dropdown-header {
+    background-color: #F6F3EF !important;
+}
+
+.img-dropdown {
+    height: 30px;
+}
+
+.dropdown-button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.dropdown-itens-menu li a {
+    align-content: center;
+    width: 100%;
+    padding: 10px 45vw !important;
+}

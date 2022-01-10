@@ -1,0 +1,67 @@
+img {
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    color: #BC4C2A;
+    font-family: 'Baskervville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    text-shadow: 2px 2px 5px #cacaca;
+}
+
+
+.custom-section{
+    align-items: center;
+    background-color: #F6F3EF;
+    font-family: 'Baskervville', serif;
+}
+
+.custom-section-item{
+    text-align: center;
+}
+
+.custom-section-item h6, .custom-section-item p, .custom-section-item button{
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.custom-section-item button {
+    background-color: #fff;
+    border: 2px solid #BC4C2A;
+    padding: 0 15px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.custom-section-item button:hover {
+    background-color: #BC4C2A;
+    color: #fff;
+} 
+
+.custom-section-item button a {
+    color: #000;
+    text-decoration: none;
+}
+
+.custom-section-item button a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .dois, .tres, .seis,.sete {
+        padding:10px 0;
+    }
+    .um { order: 1;}
+    .dois {order: 2;}
+    .tres{order: 4;}
+    .quatro{order:3;}
+    .cinco{ order: 5;}
+    .seis{order: 6; }
+    .sete{order:8;}
+    .oito{order: 7;}
+}

@@ -1,0 +1,30 @@
+.imagem-carrinho { 
+        height: 150px;
+        width: 150px;
+        border:  2px solid #BC4C2A;
+        object-fit: cover;
+}
+
+.carrinho-card {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;    
+}
+
+.increase-btn {
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+.decrease-btn {
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+.limit-btn {
+    border: none;
+    background-color:rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
